@@ -1,0 +1,174 @@
+/* color reference 
+
+blue: #0099CC
+grey:#DCDCDC
+snow white:#fffafa;
+
+*/
+
+
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;      
+}
+
+nav a{
+    text-decoration: none;
+    
+    
+    
+}
+
+/* HEADER */
+
+header{
+    height: 100vh;
+}
+
+#navBar{
+    display: flex;
+    
+    
+    
+}
+
+#navLinks{
+    display: flex;
+    justify-content:space-between;
+    width: 70%;
+    margin: auto;
+    margin-right: 10%;
+    font-size: 1.2em;
+    font-family: 'Bangers', cursive;
+    
+}
+
+#navLogo{
+    display: flex;
+    justify-content: center;
+    font-size: 1.5em;
+    font-family: 'Press Start 2P', cursive;
+    
+    
+}
+
+#navIcon{
+    color: red;
+}
+
+#headerImage_Container{
+    display: flex;
+    justify-content: center;
+      
+}
+
+#cyborgImage{
+    margin: 5% auto;
+    
+}
+
+
+
+/* ABOUT SECTION */
+
+.bigHr{
+    background-color:#2F4F4F;
+    color: #2F4F4F;
+    border: solid .1vw #2F4F4F;
+    
+}
+
+
+#aboutSection{
+    padding: 5%;
+    margin-top: 5%;
+}
+
+#sectionHeader{
+    text-align: center;
+    margin-bottom: 5%;
+    font-family: 'Bangers', cursive;
+    letter-spacing: .3em;
+    color: #2F4F4F;
+    
+}
+
+#bio{
+    display: flex;
+    justify-content: center;
+    
+}
+
+#bioText{
+    font-family:'Patrick Hand SC', cursive;
+    font-size: 1.5em;
+    margin-left: 5%;
+    color: #2F4F4F;
+}
+
+#linkedin{
+    margin-left: 77%;
+}
+
+#bioImage{
+    margin-top: 2%;
+    border-radius: 50%;
+    width: 11em;
+}
+
+.project_banner{
+    background-image: url(../images/bill-murray-drinks-coffee.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 60vh;
+}
+
+.section_title{
+    color: white;
+    font-size: 3em;
+    text-align: center;
+    padding: 10%;
+    font-family: 'Bangers', cursive;
+
+    
+}
+
+.projects{
+    text-align: center;
+    padding: 25%;
+}
+
+.project_titles{
+    font-family: 'Bangers', cursive;
+    margin-left: 10%;
+    padding: 5%;
+    margin-bottom: 0;
+    
+    
+}
+
+.project{
+    padding: 5%;
+    text-align: center;
+}
+
+.lang li{
+    list-style: none;
+    
+    
+}
+
+.lang{
+    font-family:'Patrick Hand SC', cursive;
+    font-size: 1.5em;
+
+    
+}
+
+
+
+
+
+
